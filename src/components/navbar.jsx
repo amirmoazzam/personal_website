@@ -27,7 +27,7 @@ export const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleNav = () => setNav(!nav);
   return (
-    <div className='sticky w-full h-[80px] flex justify-between items-center px-4 bg-[#2F4B26] text-white capitalize dark:bg-gray-900'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2F4B26] text-white dark:bg-gray-900'>
         <div className='flex justify-start items-center w-80'>
             {/* logo */}
             <div>

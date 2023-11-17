@@ -1,11 +1,15 @@
+import About from "./components/about";
+import Contact from "./components/contact";
 import Intro from "./components/intro";
 import { Navbar } from "./components/navbar";
 
 function App() {
   return (
-    <div className="App h-screen bg-lime-100 dark:bg-slate-500 dark:text-white duration-500 hover:cursor-default">
+    <div className="App dark:text-white hover:cursor-default capitalize">
       <Navbar/>
       <Intro />
+      <About />
+      <Contact />
     </div>
   );
 }
